@@ -16,8 +16,8 @@ export class AppComponent implements OnInit {
 
   constructor(private employeeService: EmployeeService){}
 
-  // tslint:disable-next-line:typedef
-  ngOnInit() {
+
+  ngOnInit(): void {
     this.getEmployees();
   }
 
