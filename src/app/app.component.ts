@@ -10,7 +10,7 @@ import { NgForm } from '@angular/forms';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  public title = 'Hello';
+   title = 'Hello';
   public employees: Employee[];
 
 
@@ -18,7 +18,7 @@ export class AppComponent implements OnInit {
 
 
   ngOnInit(): void {
-    this.getEmployees();
+   this.getEmployees();
   }
 
   public getEmployees(): void {
